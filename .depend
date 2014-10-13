@@ -1,0 +1,19 @@
+list.o: src/list.c src/../include/list.h
+main.o: src/main.c src/../include/game.h \
+ src/../include/../include/constant.h src/../include/../include/misc.h \
+ src/../include/../include/map.h \
+ src/../include/../include/../include/constant.h \
+ src/../include/../include/../include/list.h \
+ src/../include/../include/player.h \
+ src/../include/../include/../include/map.h \
+ src/../include/../include/level.h src/../include/list.h
+map.o: src/map.c src/../include/constant.h src/../include/map.h \
+ src/../include/../include/constant.h src/../include/../include/list.h \
+ src/../include/misc.h src/../include/bomb.h \
+ src/../include/../include/player.h \
+ src/../include/../include/../include/constant.h \
+ src/../include/../include/../include/map.h \
+ src/../include/../include/monster.h \
+ src/../include/../include/../include/list.h \
+ src/../include/../include/../include/monster.h \
+ src/../include/../include/../include/player.h src/../include/monster.h
